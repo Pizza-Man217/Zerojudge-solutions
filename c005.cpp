@@ -13,7 +13,7 @@ int main(){
         while(f--){
             long long n0,n1,n2;
             cin>>n0>>n1>>n2;
-            ans+=n0*n2;
+            ans+=n0*n2; // n0/n1*n2*n1
         }
         cout<<ans<<'\n';
     }
