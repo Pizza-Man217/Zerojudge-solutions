@@ -13,7 +13,7 @@ int main(){
 		}
 		long long ans=0;
 		for(int i=0;i<N;i++){
-			for(int u=0;u<N;u++){
+			for(int u=i;u<N;u++){
 				long long temp=1;
 				for(int j=i;j<=u;j++){
 					temp*=v[j];
